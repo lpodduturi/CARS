@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite B" >
+  <test name="Registration">
+    <classes>
+        <class name="com.perspecta.hybrid.suiteb.Registration" ></class>  
+    </classes>
+ </test>
+ </suite>

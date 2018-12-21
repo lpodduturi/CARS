@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite B]">
+  <test name="Test B(failed)">
+    <classes>
+      <class name="com.qtpselenium.hybrid.suiteb.TestB">
+        <methods>
+          <include name="quit"/>
+          <include name="testB" invocation-numbers="0 1"/>
+          <include name="init"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.suiteb.TestB -->
+    </classes>
+  </test> <!-- Test B(failed) -->
+</suite> <!-- Failed suite [Suite B] -->

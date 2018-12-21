@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite A]">
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="com.qtpselenium.hybrid.suitea.TestB">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.suitea.TestB -->
+      <class name="com.qtpselenium.hybrid.suitea.LoginTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="0 1 2"/>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.suitea.LoginTest -->
+      <class name="com.qtpselenium.hybrid.suitea.TestC">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.suitea.TestC -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test name="Test B(failed)">
+    <classes>
+      <class name="com.qtpselenium.hybrid.suitea.TestB">
+        <methods>
+          <include name="quit"/>
+          <include name="testB" invocation-numbers="0 1"/>
+          <include name="init"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.suitea.TestB -->
+      <class name="com.qtpselenium.hybrid.suitea.LoginTest">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.suitea.LoginTest -->
+      <class name="com.qtpselenium.hybrid.suitea.TestC">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.suitea.TestC -->
+    </classes>
+  </test> <!-- Test B(failed) -->
+  <test name="Test C(failed)">
+    <classes>
+      <class name="com.qtpselenium.hybrid.suitea.TestB">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.suitea.TestB -->
+      <class name="com.qtpselenium.hybrid.suitea.LoginTest">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.suitea.LoginTest -->
+      <class name="com.qtpselenium.hybrid.suitea.TestC">
+        <methods>
+          <include name="testC" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.suitea.TestC -->
+    </classes>
+  </test> <!-- Test C(failed) -->
+</suite> <!-- Failed suite [Suite A] -->

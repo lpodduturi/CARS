@@ -1,0 +1,9 @@
+<suite name="My suite" >
+ <suite-files>
+   <suite-file path="C:/Perspecta_Automation/CARS/testcases/SuiteA.xlsx" />
+   <suite-file path="C:/Perspecta_Automation/CARS/testcases/suiteB.xlsx" />
+   
+   
+  </suite-files>
+
+</suite>
